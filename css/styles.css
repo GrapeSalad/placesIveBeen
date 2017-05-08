@@ -4,6 +4,11 @@
   color: #fff;
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+}
+
 #refresh {
   float: right;
 }
@@ -14,6 +19,11 @@
 
 .output li {
   list-style: none;
+  border: 2px solid #932880;
+  background: rgba(255, 255, 255, 0.5);;
+  width: auto;
+  border-radius: 5px;
+  text-align: center;
 }
 
 #info {
@@ -22,7 +32,7 @@
 
 .clickable {
   cursor: pointer;
-  color: blue;
+  color: rgb(68, 7, 52);
 }
 
 .clickable:hover {
@@ -35,5 +45,5 @@
 
 .container {
   background: gray;
-  height: 920px;
+  height: auto;
 }
