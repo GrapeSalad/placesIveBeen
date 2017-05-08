@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Places we've visited</h1>
+      </div>
+      <form id="places">
+        <div class="form-group">
+          <input id="location" class="form-control" type="text" placeholder="Location"></input>
+        </div>
+        <div class="form-group">
+          <input id="landmarks" class="form-control" type="text" placeholder="Landmarks"></input>
+        </div>
+        <div class="form-group">
+          <input id="time" class="form-control" type="text" placeholder="Time of Year"></input>
+        </div>
+        <div class="form-group">
+          <input id="notes" class="form-control" type="text" placeholder="Notes"></input>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="returnBool" value="true">I would return</input>
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="returnBool" value="false">I would NOT return</input>
+          </label>
+        </div>
+        <button type="submit" class="btn">Add</button>
+        <button id="refresh" type="button" class="btn">RESET DATA</button>
+      </form>
+
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="output">
+
+          </ul>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-6">
+          <div id="info">
+            <div class="panel panel-primary">
+              <div class="panel panel-heading">
+                <h2></h2>
+              </div>
+               <ul class="details">
+                 <li>Landmarks: <span class = "liLandmark"></span></li>
+                 <li>Time: <span class = "liTime"></span></li>
+                 <li>Notes: <span class = "liNotes"></span></li>
+                 <li>Recommendation: <span class="liRec"></span></li>
+               </ul>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

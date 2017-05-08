@@ -1,0 +1,39 @@
+.jumbotron {
+  text-align: center;
+  background-color: #440734;
+  color: #fff;
+}
+
+#refresh {
+  float: right;
+}
+
+.output {
+  margin: 10px 0 0;
+}
+
+.output li {
+  list-style: none;
+}
+
+#info {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: blue;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable:active {
+  color: purple;
+}
+
+.container {
+  background: gray;
+  height: 920px;
+}
